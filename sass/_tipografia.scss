@@ -1,0 +1,37 @@
+h1 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: normal;
+	font-size: 4vw;
+	font-style: unset;
+	color: $rojo;
+	text-align: center;
+	text-transform: capitalize;
+	line-height: ($ancho250)-200px;
+	text-decoration: none;
+	word-spacing: 15px;
+	padding-bottom: 2vw;
+}
+h2 {
+	color: $rojo;
+}
+h3 {
+	color: $rojo;
+}
+h4 {
+	color: $rojo;
+}
+#h2Servicios {
+	padding-top: $rem +2rem;
+	padding-bottom: $rem+$rem;
+	text-align: center;
+}
+p {
+	color: white;
+}
+a {
+	text-decoration: none;
+	color: #c53aa7;
+	&:hover {
+		color: #00a4e6;
+	}
+}

@@ -1,0 +1,42 @@
+.imagen {
+	margin: 0 0 2rem;
+	.imagen__index {
+		margin: 2rem 13rem 10rem 16rem;
+		max-width: $ancho250+50px;
+		min-width: none;
+		max-height: $ancho250+50px;
+		min-height: none;
+		float: left;
+		border-radius: 50%;
+	}
+}
+
+.aside {
+	padding: 0vw 3vw 5vw 0vw;
+	.aside__parrafo {
+		width: ($ancho250)*2;
+		font-size: 35px;
+		text-align: justify;
+		margin-left: 48rem;
+		margin-top: $rem*5;
+	}
+	.aside__parrafo--color {
+		color: grey;
+	}
+}
+
+.cajaContainer {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+
+.rosita {
+	background-image: linear-gradient(to left, $rosa_claro, $rosa_oscuro);
+}
+.redondito {
+	border-radius: 50%;
+}

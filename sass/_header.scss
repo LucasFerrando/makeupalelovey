@@ -1,0 +1,13 @@
+.header {
+	width: 100%;
+	clear: both;
+	content: "";
+	display: table;
+	.header__hipervinculos {
+		text-align: center;
+	}
+	.header__logo {
+		border-radius: 50%;
+		max-width: 70px;
+	}
+}
