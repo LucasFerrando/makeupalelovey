@@ -145,9 +145,7 @@ a {
     grid-area: texto1;
     text-align: inherit;
     padding-top: 14vw;
-    font-family: 'Quicksand';
-    font-style: italic;
-    font-weight: 600;
+    color: black;
     font-size: 2rem; }
   .cursos .cursos__foto2 {
     grid-area: foto2;
@@ -156,9 +154,7 @@ a {
   .cursos .cursos__texto2 {
     grid-area: texto2;
     text-align: end;
-    font-family: 'Quicksand';
-    font-style: italic;
-    font-weight: 600;
+    color:black;
     padding-top: 20vw;
     font-size: 2rem; }
 
