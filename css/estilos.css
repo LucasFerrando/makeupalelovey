@@ -3,7 +3,7 @@
   padding: 0; }
 
 body {
-  background-image: url(media/fondo.jpg);
+  background-image:url("../media/fondo.jpg");
   text-transform: initial;
   font-family: 'Sacramento', cursive; }
 
