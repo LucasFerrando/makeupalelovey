@@ -5,7 +5,7 @@
 body {
   background-image: linear-gradient(to left, #f5dce1, #eb1866);
   text-transform: initial;
-  font-family: 'Quicksand', sans-serif; }
+  font-family: 'Sacramento', cursive; }
 
 .header {
   width: 100%;
@@ -61,6 +61,17 @@ h4 {
   padding-top: 3rem;
   padding-bottom: 2rem;
   text-align: center; }
+
+legend{
+  font-size: 2rem;
+  text-align: center;
+}
+.form-group{
+  font-size:1.5rem;
+}
+.form-control{
+  font-size: 1.5rem;
+}
 
 p {
   color: white; }
@@ -177,94 +188,6 @@ a {
   .servicios .servicios__cajaGlitter {
     grid-area: cajaGlitter; }
 
-#cajaGaleria {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 15rem);
-  padding: 10px;
-  gap: 10px;
-  grid-template-areas: "pau ale ale sol" "celes ale ale sol" "celes moni clari mili" "ale2 moni chen mili"; }
-
-.pau {
-  grid-area: pau;
-  width: 100%;
-  height: 100%;
-  border-radius: 5%; }
-  .pau:hover {
-    transform: translateY(100px) translateX(500px) scale(2);
-    transition: 2s; }
-
-.ale {
-  grid-area: ale;
-  width: 100%;
-  height: 100%;
-  border-radius: 5%; }
-  .ale:hover {
-    transform: translateY(100px) translateX(-25px) scale(1.5);
-    transition: 2s; }
-
-.sol {
-  grid-area: sol;
-  width: 100%;
-  height: 100%;
-  border-radius: 5%; }
-  .sol:hover {
-    transform: translateY(100px) translateX(-500px) scale(1.5);
-    transition: 2s; }
-
-.clari {
-  grid-area: clari;
-  width: 100%;
-  height: 100%;
-  border-radius: 5%; }
-  .clari:hover {
-    transform: translateY(100px) translateX(-25px) scale(2.5);
-    transition: 2s; }
-
-.chen {
-  grid-area: chen;
-  width: 100%;
-  height: 100%;
-  border-radius: 5%; }
-  .chen:hover {
-    transform: translateY(-100px) translateX(-200px) scale(2.5);
-    transition: 2s; }
-
-.mili {
-  grid-area: mili;
-  width: 100%;
-  height: 100%;
-  border-radius: 5%; }
-  .mili:hover {
-    transform: translateY(-100px) translateX(-500px) scale(1.5);
-    transition: 2s; }
-
-.moni {
-  grid-area: moni;
-  width: 100%;
-  height: 100%;
-  border-radius: 5%; }
-  .moni:hover {
-    transform: translateY(-200px) translateX(250px) scale(1.5);
-    transition: 2s; }
-
-.celes {
-  grid-area: celes;
-  width: 100%;
-  height: 100%;
-  border-radius: 5%; }
-  .celes:hover {
-    transform: translateY(100px) translateX(500px) scale(1.5);
-    transition: 2s; }
-
-.ale2 {
-  grid-area: ale2;
-  width: 100%;
-  height: 100%;
-  border-radius: 5%; }
-  .ale2:hover {
-    transform: translateY(-100px) translateX(500px) scale(2.5);
-    transition: 2s; }
 
 .imagen {
   margin: 0 0 2rem; }
