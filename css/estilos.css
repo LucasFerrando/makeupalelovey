@@ -208,6 +208,10 @@ a {
   align-items: center;
   flex-direction: column;
   justify-content: center; }
+.texto_fotos{
+  font-weight: bold;
+  color: #ed1cca;
+}
 
 .rosita {
   background-image: linear-gradient(to left, #f5dce1, #eb1866); }
