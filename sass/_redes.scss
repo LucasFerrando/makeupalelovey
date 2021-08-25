@@ -2,21 +2,11 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding-bottom: 2vw;
-	.redes__icono {
-		padding: 0 1vw 0 0;
-		&:hover {
-			transform: scale(1.5);
-			transition: 1.5s;
-		}
-	}
-	.redes__icono--red {
-		background-color:red;
-	}
-	.redes__icono--green {
-		background-color: green;
-	}
-	.redes__icono--blue {
-		background-color: blue;
-	}
-}
+	padding-bottom: 2vw; }
+	.redes .redes__icono {
+	  padding: 0 1vw 0 0; }
+	  .redes .redes__icono:hover {
+		transform: scale(1.5);
+		transition: 1.5s; }
+  
+  
