@@ -182,10 +182,12 @@ a {
 
 
 .imagen {
+  display: block;
+  margin: auto;
   margin: 0 0 2rem; }
   .imagen .imagen__index {
-    margin: 2rem 13rem 10rem 16rem;
-    max-width: 300px;
+    margin: 2rem 1rem 0rem 1rem;
+    max-width: 10rem;
     min-width: none;
     max-height: 300px;
     min-height: none;
@@ -193,13 +195,15 @@ a {
     border-radius: 50%; }
 
 .aside {
-  padding: 0vw 3vw 5vw 0vw; }
+  display: block;
+  margin: auto;
+  padding: 0vw 0vw 5vw 0vw; }
   .aside .aside__parrafo {
-    width: 500px;
-    font-size: 35px;
+    width: 20rem;
+    font-size: 17px;
     text-align: justify;
-    margin-left: 48rem;
-    margin-top: 5rem; }
+    margin-left: 0rem;
+    margin-top: 0rem; }
   .aside .aside__parrafo--color {
     color: grey; }
 
