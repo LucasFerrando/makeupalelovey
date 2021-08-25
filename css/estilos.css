@@ -145,7 +145,7 @@ a {
     grid-area: texto1;
     text-align: inherit;
     padding-top: 14vw;
-    color: black;
+    color: grey;
     font-size: 2rem; }
   .cursos .cursos__foto2 {
     grid-area: foto2;
@@ -154,7 +154,7 @@ a {
   .cursos .cursos__texto2 {
     grid-area: texto2;
     text-align: end;
-    color:black;
+    color:grey;
     padding-top: 20vw;
     font-size: 2rem; }
 
