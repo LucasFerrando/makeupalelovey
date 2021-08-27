@@ -19,6 +19,3 @@ yarn-error.log*
 #jason
 package-lock.jason
 package.jason
-#sass
-/sass/
-*.scss
