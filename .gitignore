@@ -21,3 +21,4 @@ package-lock.jason
 package.jason
 #sass
 /sass/
+*.scss
