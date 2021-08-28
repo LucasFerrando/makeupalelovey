@@ -18,9 +18,11 @@ h1 {
 	color: #ed1c24; }
   
   h4 {
+	font-size: 2rem;
 	color: #ed1c24; }
   
   #h2Servicios {
+	font-family:'Klee One', cursive ;
 	padding-top: 3rem;
 	padding-bottom: 2rem;
 	text-align: center; }
@@ -37,12 +39,14 @@ h1 {
   }
   
   p {
-	color: white; }
+	font-family: 'Klee One', cursive;
+	font-weight:600;
+	color: #ab60fd; }
   
   a {
 	font-size: 1.5rem;
 	text-decoration: none;
-	color: #c53aa7; }
+	color: #c54aa7; }
 	a:hover {
 	  color: #00a4e6; }
   

@@ -37,3 +37,13 @@
   .redondito {
 	border-radius: 50%; }
   
+.navbar-nav{
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+
+.navbar-light{
+	background: rgba(0, 0, 0, 0.2);
+}
+
