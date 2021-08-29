@@ -105,7 +105,7 @@ a:hover {
   text-align: center;
   padding: 0 2vw 0 2vw; }
 
-.productos .productos__makeUpBox {
+.productos .productos__makeupbox {
   border-style: solid;
   border-radius: 10% 10%;
   border-color: black white; }
@@ -187,20 +187,20 @@ a:hover {
   padding-left: 1rem;
   gap: 20px; }
 
-.servicios .servicios__mSocial {
+.servicios .servicios__msocial {
   grid-area: mSocial;
   width: 225px;
   height: 225px;
   border-radius: 50%; }
 
-.servicios .servicios__mGlitter {
+.servicios .servicios__mglitter {
   grid-area: mGlitter;
   border-radius: 50%; }
 
-.servicios .servicios__cajaSocial {
+.servicios .servicios__cajasocial {
   grid-area: cajaSocial; }
 
-.servicios .servicios__cajaGlitter {
+.servicios .servicios__cajaglitter {
   grid-area: cajaGlitter; }
 
 .imagen {
