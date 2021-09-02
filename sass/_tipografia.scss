@@ -9,45 +9,46 @@ h1 {
 	line-height: 50px;
 	text-decoration: none;
 	word-spacing: 15px;
-	padding-bottom: 2vw; 
-	padding-top: 6vh;}
-  
-  h2 {
-	color: #ed1c24; }
-  
-  h3 {
-	color: #ed1c24; }
-  
-  h4 {
+	padding-bottom: 2vw;
+	padding-top: 6vh;
+}
+h2 {
+	color: #ed1c24;
+	text-align: center;
+}
+h3 {
+	color: #ed1c24;
+}
+h4 {
 	font-size: 2rem;
-	color: #ed1c24; }
-  
-  #h2servicios {
-	font-family:'Klee One', cursive ;
+	color: #ed1c24;
+}
+#h2_servicios {
+	font-family: 'Klee One', cursive;
 	padding-top: 3rem;
 	padding-bottom: 2rem;
-	text-align: center; }
-  
-  legend{
+	text-align: center;
+}
+legend {
 	font-size: 2rem;
 	text-align: center;
-  }
-  .form-group{
-	font-size:1.5rem;
-  }
-  .form-control{
+}
+.form-group {
 	font-size: 1.5rem;
-  }
-  
-  p {
+}
+.form-control {
+	font-size: 1.5rem;
+}
+p {
 	font-family: 'Klee One', cursive;
-	font-weight:600;
-	color: #ab60fd; }
-  
-  a {
+	font-weight: 600;
+	color: #ab60fd;
+}
+a {
 	font-size: 1.5rem;
 	text-decoration: none;
-	color: #c54aa7; }
-	a:hover {
-	  color: #00a4e6; }
-  
+	color: #c54aa7;
+	&:hover {
+		color: #00a4e6;
+	}
+}

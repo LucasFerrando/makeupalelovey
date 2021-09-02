@@ -12,26 +12,22 @@ body {
   clear: both;
   content: "";
   display: table; }
-
-.header .header__hipervinculos {
-  text-align: center; }
-
-.header .header__logo {
-  border-radius: 50%;
-  max-width: 70px; }
+  .header .header__hipervinculos {
+    text-align: center; }
+  .header .header__logo {
+    border-radius: 50%;
+    max-width: 70px; }
 
 .redes {
   display: flex;
   align-items: center;
   justify-content: center;
   padding-bottom: 2vw; }
-
-.redes .redes__icono {
-  padding: 0 1vw 0 0; }
-
-.redes .redes__icono:hover {
-  transform: scale(1.5);
-  transition: 1.5s; }
+  .redes .redes__icono {
+    padding: 0 1vw 0 0; }
+    .redes .redes__icono:hover {
+      transform: scale(1.3);
+      transition: 0.5s; }
 
 h1 {
   font-family: 'Sacramento', cursive;
@@ -48,7 +44,8 @@ h1 {
   padding-top: 6vh; }
 
 h2 {
-  color: #ed1c24; }
+  color: #ed1c24;
+  text-align: center; }
 
 h3 {
   color: #ed1c24; }
@@ -57,7 +54,7 @@ h4 {
   font-size: 2rem;
   color: #ed1c24; }
 
-#h2servicios {
+#h2_servicios {
   font-family: 'Klee One', cursive;
   padding-top: 3rem;
   padding-bottom: 2rem;
@@ -82,15 +79,18 @@ a {
   font-size: 1.5rem;
   text-decoration: none;
   color: #c54aa7; }
-
-a:hover {
-  color: #00a4e6; }
+  a:hover {
+    color: #00a4e6; }
 
 .carousel-inner {
   position: relative;
   width: 70%;
   height: 70%;
-  overflow: hidden; }
+  overflow: hidden;
+  margin: auto; }
+  .carousel-inner img {
+    margin: auto;
+    border-radius: 10%; }
 
 .carousel-control-next {
   top: 30vw; }
@@ -105,46 +105,38 @@ a:hover {
   gap: 2rem;
   text-align: center;
   padding: 0 2vw 0 2vw; }
-
-.productos .productos__makeupbox {
-  border-style: solid;
-  border-radius: 10% 10%;
-  border-color: black white; }
-
-.productos .productos__labial {
-  border-style: solid;
-  border-radius: 10% 10%;
-  border-color: white black; }
-
-.productos .productos__sombras {
-  border-style: solid;
-  border-radius: 10% 10%;
-  border-color: black white; }
-
-.productos .productos__paleta {
-  border-style: solid;
-  border-radius: 10% 10%;
-  border-color: white black; }
-
-.productos .productos__bronzer {
-  border-style: solid;
-  border-radius: 10% 10%;
-  border-color: black white; }
-
-.productos .productos__delineador {
-  border-style: solid;
-  border-radius: 10% 10%;
-  border-color: white black; }
-
-.productos .productos__lipstick {
-  border-style: solid;
-  border-radius: 10% 10%;
-  border-color: black white; }
-
-.productos .productos__mas {
-  border-style: solid;
-  border-radius: 10% 10%;
-  border-color: white black; }
+  .productos .productos__makeupbox {
+    border-style: solid;
+    border-radius: 10% 10%;
+    border-color: black white; }
+  .productos .productos__labial {
+    border-style: solid;
+    border-radius: 10% 10%;
+    border-color: white black; }
+  .productos .productos__sombras {
+    border-style: solid;
+    border-radius: 10% 10%;
+    border-color: black white; }
+  .productos .productos__paleta {
+    border-style: solid;
+    border-radius: 10% 10%;
+    border-color: white black; }
+  .productos .productos__bronzer {
+    border-style: solid;
+    border-radius: 10% 10%;
+    border-color: black white; }
+  .productos .productos__delineador {
+    border-style: solid;
+    border-radius: 10% 10%;
+    border-color: white black; }
+  .productos .productos__lipstick {
+    border-style: solid;
+    border-radius: 10% 10%;
+    border-color: black white; }
+  .productos .productos__mas {
+    border-style: solid;
+    border-radius: 10% 10%;
+    border-color: white black; }
 
 .cursos {
   display: grid;
@@ -153,30 +145,26 @@ a:hover {
   grid-template-areas: "foto1 foto1 foto1 texto1 texto1" "texto2 texto2 foto2 foto2 foto2";
   gap: 2vw;
   padding: 0 2vw 0 2vw; }
-
-.cursos .cursos__foto1 {
-  grid-area: foto1;
-  border-radius: 50%;
-  width: 80%; }
-
-.cursos .cursos__texto1 {
-  grid-area: texto1;
-  text-align: inherit;
-  padding-top: 14vw;
-  color: grey;
-  font-size: 2rem; }
-
-.cursos .cursos__foto2 {
-  grid-area: foto2;
-  width: 80%;
-  border-radius: 50%; }
-
-.cursos .cursos__texto2 {
-  grid-area: texto2;
-  text-align: end;
-  color: grey;
-  padding-top: 20vw;
-  font-size: 2rem; }
+  .cursos .cursos__foto1 {
+    grid-area: foto1;
+    border-radius: 50%;
+    width: 80%; }
+  .cursos .cursos__texto1 {
+    grid-area: texto1;
+    text-align: inherit;
+    padding-top: 14vw;
+    color: grey;
+    font-size: 2rem; }
+  .cursos .cursos__foto2 {
+    grid-area: foto2;
+    width: 80%;
+    border-radius: 50%; }
+  .cursos .cursos__texto2 {
+    grid-area: texto2;
+    text-align: end;
+    color: grey;
+    padding-top: 20vw;
+    font-size: 2rem; }
 
 .servicios {
   display: grid;
@@ -187,47 +175,66 @@ a:hover {
   text-align: center;
   padding-left: 1rem;
   gap: 20px; }
+  .servicios .servicios__msocial {
+    grid-area: mSocial;
+    width: 225px;
+    height: 225px;
+    border-radius: 50%; }
+  .servicios .servicios__mglitter {
+    grid-area: mGlitter;
+    border-radius: 50%; }
+  .servicios .servicios__cajasocial {
+    grid-area: cajaSocial; }
+  .servicios .servicios__cajaglitter {
+    grid-area: cajaGlitter; }
 
-.servicios .servicios__msocial {
-  grid-area: mSocial;
-  width: 225px;
-  height: 225px;
-  border-radius: 50%; }
-
-.servicios .servicios__mglitter {
-  grid-area: mGlitter;
-  border-radius: 50%; }
-
-.servicios .servicios__cajasocial {
-  grid-area: cajaSocial; }
-
-.servicios .servicios__cajaglitter {
-  grid-area: cajaGlitter; }
+.index_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "principal texto" "texto2 estudio ";
+  width: 1rem;
+  text-align: center; }
 
 .imagen {
-  margin: 0 0 2rem; }
+  grid-area: principal; }
 
-.imagen .imagen__index {
-  margin: 2rem 13rem 10rem 16rem;
-  max-width: 300px;
+.aside {
+  grid-area: texto; }
+
+.imagen2 {
+  grid-area: estudio; }
+
+.aside2 {
+  grid-area: texto2; }
+
+.imagen__index {
+  margin: 2rem 10rem 10rem 16rem;
+  max-width: 450px;
   min-width: none;
   max-height: 300px;
   min-height: none;
   float: left;
-  border-radius: 50%; }
+  border-radius: 10%; }
 
-.aside {
-  padding: 0vw 3vw 5vw 0vw; }
+.imagen__index2 {
+  max-width: 450px;
+  min-width: none;
+  max-height: 300px;
+  min-height: none;
+  float: right;
+  border-radius: 10%; }
 
-.aside .aside__parrafo {
+.aside__parrafo {
   width: 500px;
-  font-size: 35px;
+  font-size: 22px;
   text-align: justify;
-  margin-left: 48rem;
-  margin-top: 5rem; }
+  margin-top: 1rem; }
 
-.aside .aside__parrafo--color {
-  color: grey; }
+.aside2__parrafo {
+  font-size: 22px;
+  padding-left: 10rem;
+  text-align: justify; }
 
 .cajaContainer {
   display: flex;
@@ -252,12 +259,30 @@ a:hover {
 .navbar-light {
   background: rgba(0, 0, 0, 0.05); }
 
-.footer {
-  margin-top: 16vw;
-  text-align: center;
-  color: #535252; }
+.footer_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-template-areas: "datos hora";
+  text-align: center; }
 
-.footer .footer__logo {
+.lista_datos {
+  grid-area: datos; }
+  .lista_datos li {
+    display: table-header-group; }
+
+.lista_horarios {
+  grid-area: hora; }
+  .lista_horarios li {
+    display: inline-flex; }
+
+.footer {
+  margin: 1rem 0 0 0;
+  font-family: 'Klee One', cursive;
+  text-align: center;
+  color: black;
+  background-image: url(../media/footer.jpg);
+  opacity: 0.8; }
+  .footer__logo {
   border-radius: 50%;
   max-width: 3vw; }
 
@@ -300,7 +325,7 @@ a:hover {
   .container {
     max-width: 960px; }
   li {
-    display: inline-block;
+    display: block;
     width: 15%;
     position: relative;
     padding: 2rem 4rem 0 0;

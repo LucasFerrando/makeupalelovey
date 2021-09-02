@@ -1,8 +1,31 @@
-.footer {
-	margin-top: 16vw;
+.footer_grid {
+	display: grid;
+	grid-template-columns: repeat(2, 2fr);
+	grid-template-areas: "datos hora";
 	text-align: center;
-	color: #535252; }
-	.footer .footer__logo {
-	  border-radius: 50%;
-	  max-width: 3vw; }
-  
+	color: black;
+}
+.lista_datos {
+	grid-area: datos;
+	li {
+		display: table-header-group;
+	}
+}
+.lista_horarios {
+	grid-area: hora;
+	li {
+		display: inline-flex;
+	}
+}
+.footer {
+	margin: 1rem 0 0 0;
+	font-family: 'Klee One', cursive;
+	text-align: center;
+	color: black;
+	background-image: url(../media/footer.jpg);
+	opacity: 0.8;
+}
+.footer__logo {
+	border-radius: 50%;
+	max-width: 3vw;
+}
