@@ -309,6 +309,8 @@ a {
     font-size: 18px;
     width: 300px;
     padding: 0; }
+  .lista_horarios ul {
+    padding: 0; }
   .container-sm {
     max-width: 540px; }
   .container {
