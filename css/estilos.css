@@ -263,7 +263,8 @@ a {
   display: grid;
   grid-template-columns: repeat(2, 2fr);
   grid-template-areas: "datos hora";
-  text-align: center; }
+  text-align: center;
+  color: black; }
 
 .lista_datos {
   grid-area: datos; }
@@ -282,17 +283,36 @@ a {
   color: black;
   background-image: url(../media/footer.jpg);
   opacity: 0.8; }
-  .footer__logo {
+
+.footer__logo {
   border-radius: 50%;
   max-width: 3vw; }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
+  .navbar-nav {
+    flex-direction: column; }
+  .index_grid {
+    display: block; }
+  .imagen__index {
+    margin: 30px 30px 0px;
+    float: none; }
+  .aside__parrafo {
+    margin: 30px 30px 0px;
+    width: 300px;
+    font-size: 18px; }
+  .imagen__index2 {
+    margin: 30px 30px 0px;
+    float: none;
+    max-width: 300px; }
+  .aside2__parrafo {
+    margin: 30px 30px 30px;
+    font-size: 18px;
+    width: 300px;
+    padding: 0; }
   .container-sm {
     max-width: 540px; }
   .container {
-    max-width: 540px; }
-  #navegacion {
-    display: inline; } }
+    max-width: 540px; } }
 
 @media (min-width: 768px) {
   .container-md {
