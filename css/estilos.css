@@ -263,7 +263,8 @@ a {
   display: grid;
   grid-template-columns: repeat(2, 2fr);
   grid-template-areas: "datos hora";
-  text-align: center; }
+  text-align: center;
+  color: black; }
 
 .lista_datos {
   grid-area: datos; }
@@ -282,7 +283,8 @@ a {
   color: black;
   background-image: url(../media/footer.jpg);
   opacity: 0.8; }
-  .footer__logo {
+
+.footer__logo {
   border-radius: 50%;
   max-width: 3vw; }
 
