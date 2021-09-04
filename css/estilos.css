@@ -32,7 +32,7 @@ body {
 h1 {
   font-family: 'Sacramento', cursive;
   font-weight: normal;
-  font-size: 3rem;
+  font-size: 48px;
   font-style: unset;
   color: #ed1c24;
   text-align: center;
@@ -51,7 +51,7 @@ h3 {
   color: #ed1c24; }
 
 h4 {
-  font-size: 2rem;
+  font-size: 32px;
   color: #ed1c24; }
 
 #h2_servicios {
@@ -61,14 +61,14 @@ h4 {
   text-align: center; }
 
 legend {
-  font-size: 2rem;
+  font-size: 32px;
   text-align: center; }
 
 .form-group {
-  font-size: 1.5rem; }
+  font-size: 29px; }
 
 .form-control {
-  font-size: 1.5rem; }
+  font-size: 24px; }
 
 p {
   font-family: 'Klee One', cursive;
@@ -76,7 +76,7 @@ p {
   color: #ab60fd; }
 
 a {
-  font-size: 1.5rem;
+  font-size: 24px;
   text-decoration: none;
   color: #c54aa7; }
   a:hover {
@@ -270,6 +270,8 @@ a {
   grid-area: datos; }
   .lista_datos li {
     display: table-header-group; }
+  .lista_datos ul {
+    padding: 0% 25%; }
 
 .lista_horarios {
   grid-area: hora; }
@@ -286,9 +288,9 @@ a {
 
 .footer__logo {
   border-radius: 50%;
-  max-width: 3vw; }
+  max-width: 6vw; }
 
-@media (max-width: 576px) {
+@media (min-width: 320px) and (max-width: 480px) {
   .navbar-nav {
     flex-direction: column; }
   .index_grid {
@@ -316,15 +318,43 @@ a {
   .container {
     max-width: 540px; } }
 
-@media (min-width: 768px) {
+@media (min-width: 481px) and (max-width: 768px) {
+  .navbar-nav {
+    justify-content: center; }
+  .index_grid {
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: none;
+    grid-template-areas: "principal texto" "estudio estudio " "texto2 texto2"; }
+  .imagen__index {
+    margin: 30px 30px 0px;
+    float: none;
+    width: 20rem; }
+  .aside__parrafo {
+    margin: 2rem 0 0 0;
+    width: 23rem;
+    font-size: 20px; }
+  .imagen__index2 {
+    margin-top: 2rem;
+    float: none;
+    width: 30rem; }
+  .aside2__parrafo {
+    margin: 30px 30px 30px;
+    font-size: 20px;
+    padding: 0;
+    width: auto; }
+  .lista_datos ul {
+    padding: 0; }
+  .lista_horarios ul {
+    padding: 0; }
+  .lista_horarios li {
+    padding: 0%; }
   .container-md {
     max-width: 720px; }
   .container-sm {
     max-width: 720px; }
   .container {
     max-width: 720px; }
-  #navegacion {
-    display: block; }
   li {
     display: inline-block;
     width: 15%;
@@ -337,44 +367,9 @@ a {
   ol {
     padding-left: 10rem; } }
 
-@media (min-width: 992px) {
-  .container-lg {
-    max-width: 960px; }
-  .container-md {
-    max-width: 960px; }
-  .container-sm {
-    max-width: 960px; }
-  .container {
-    max-width: 960px; }
-  li {
-    display: block;
-    width: 15%;
-    position: relative;
-    padding: 2rem 4rem 0 0;
-    margin: 0px; } }
-
-@media (min-width: 1200px) {
-  .container-xl {
-    max-width: 1140px; }
-  .container-lg {
-    max-width: 1140px; }
-  .container-md {
-    max-width: 1140px; }
-  .container-sm {
-    max-width: 1140px; }
-  .container {
-    max-width: 1140px; } }
-
-@media (min-width: 1400px) {
-  .container-xxl {
-    max-width: 1320px; }
-  .container-xl {
-    max-width: 1320px; }
-  .container-lg {
-    max-width: 1320px; }
-  .container-md {
-    max-width: 1320px; }
-  .container-sm {
-    max-width: 1320px; }
-  .container {
-    max-width: 1320px; } }
+@media (min-width: 769px) {
+  .nav-item {
+    display: inline-block;
+    padding: 0rem 60px 0px 60px; }
+  .lista_horarios ul {
+    padding: 0 20%; } }
