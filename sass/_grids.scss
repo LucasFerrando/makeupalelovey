@@ -71,9 +71,11 @@
 		margin-bottom: 3rem;
 		box-shadow: 0 15px 25px rgba(0,0,0,0.50);
 		transition: all 500ms;
+		filter: brightness(80%);
 	}
 	.cursos__automaquillaje:hover{
-		transform: scale(1.3);		
+		transform: scale(1.3);
+		filter: brightness(100%);		
 	}
 	.-a1{
 		grid-area: automaq1;	
@@ -113,9 +115,11 @@
 		box-shadow: 0 15px 25px rgba(0,0,0,0.50);
 		transition: all 500ms;
 		margin-bottom: 3rem;
+		filter: brightness(80%);
 	}
 	.cursos__artist:hover{
 		transform: scale(1.3);
+		filter: brightness(100%);
 	}
 
 	.-b1{
@@ -164,15 +168,18 @@
 	grid-template-areas: "principal texto" "texto2 estudio ";
 	width: 1rem;
 	text-align: center;
+	
 }
 .imagen {
 	grid-area: principal;
+
 }
 .aside {
 	grid-area: texto;
 }
 .imagen2 {
 	grid-area: estudio;
+	
 }
 .aside2 {
 	grid-area: texto2;

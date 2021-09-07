@@ -27,6 +27,11 @@
 		padding: 0;
 
 	}
+	.lista_datos {
+		ul {
+			padding: 0;
+		}
+	}
 	.lista_horarios {
 		ul {
 			padding: 0;
@@ -39,7 +44,23 @@
 	.container {
 		max-width: 540px;
 	}
-
+	.cursos{
+		gap: 0;
+		padding: 0;
+		.cursos__foto1{
+			margin: 50% 0;
+		}
+		.cursos__texto1{
+			font-size: 16px;
+		}
+		.cursos__foto2{
+			margin: 50% 0;
+			width: 80%;
+		}
+		.cursos__texto2{
+			font-size: 16px;
+		}
+	}
 }
 // ipad
 @media (min-width: 481px) and (max-width:768px) {
@@ -90,6 +111,24 @@
 		}
 		li{
 			padding: 0%;
+		}
+	}
+
+
+	.cursos{
+		gap: 2.5rem 0;
+		padding: 0;
+		.cursos__foto1{
+			margin: 0% 0;
+		}
+		.cursos__texto1{
+			font-size: 22px;
+		}
+		.cursos__foto2{
+			margin: 0% 0;
+		}
+		.cursos__texto2{
+			font-size: 22px;
 		}
 	}
 	.container-md {
