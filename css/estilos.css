@@ -99,45 +99,47 @@ a {
 .carousel-control-prev {
   top: 30vw; }
 
-.productos {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 2rem;
-  text-align: center;
-  padding: 0 2vw 0 2vw; }
-  .productos .productos__makeupbox {
-    border-style: solid;
+.tienda {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+  .tienda .productos {
+    margin: 15px;
+    padding: 24px 16px;
     border-radius: 10% 10%;
-    border-color: black white; }
-  .productos .productos__labial {
-    border-style: solid;
-    border-radius: 10% 10%;
-    border-color: white black; }
-  .productos .productos__sombras {
-    border-style: solid;
-    border-radius: 10% 10%;
-    border-color: black white; }
-  .productos .productos__paleta {
-    border-style: solid;
-    border-radius: 10% 10%;
-    border-color: white black; }
-  .productos .productos__bronzer {
-    border-style: solid;
-    border-radius: 10% 10%;
-    border-color: black white; }
-  .productos .productos__delineador {
-    border-style: solid;
-    border-radius: 10% 10%;
-    border-color: white black; }
-  .productos .productos__lipstick {
-    border-style: solid;
-    border-radius: 10% 10%;
-    border-color: black white; }
-  .productos .productos__mas {
-    border-style: solid;
-    border-radius: 10% 10%;
-    border-color: white black; }
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5); }
+  .tienda p {
+    font-size: 25px;
+    margin: 0 0 0 2rem;
+    position: relative;
+    top: 10px; }
+  .tienda h3 {
+    font-family: 'Klee One', cursive;
+    margin-bottom: 10px;
+    margin-left: 15px; }
+  .tienda .productos:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5); }
+  .tienda img {
+    border-radius: 10%;
+    width: 300px; }
+  .tienda .boton {
+    border: 2px solid #eb1866;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Klee One", cursive;
+    text-align: center;
+    border-radius: 10%;
+    background-color: transparent;
+    padding: 10px 25px;
+    color: black;
+    position: absolute;
+    right: 32px;
+    bottom: 7px;
+    transition-duration: 0.4s; }
+  .tienda .boton:hover {
+    background-color: #f5dce1;
+    color: black; }
 
 .cursos {
   display: grid;
