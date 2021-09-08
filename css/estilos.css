@@ -207,26 +207,22 @@ a {
     grid-area: b4; }
 
 .servicios {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-areas: "mSocial mGlitter" "cajaSocial cajaGlitter ";
-  justify-items: center;
-  text-align: center;
-  padding-left: 1rem;
-  gap: 20px; }
-  .servicios .servicios__msocial {
-    grid-area: mSocial;
-    width: 225px;
-    height: 225px;
-    border-radius: 50%; }
-  .servicios .servicios__mglitter {
-    grid-area: mGlitter;
-    border-radius: 50%; }
-  .servicios .servicios__cajasocial {
-    grid-area: cajaSocial; }
-  .servicios .servicios__cajaglitter {
-    grid-area: cajaGlitter; }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+  .servicios .__opciones {
+    margin: 15px;
+    padding: 24px 35px;
+    border-radius: 10%;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5); }
+  .servicios img {
+    width: 350px;
+    border-radius: 10%; }
+  .servicios p {
+    margin-left: 1.5rem;
+    text-align: justify;
+    width: 300px; }
 
 .index_grid {
   display: grid;
